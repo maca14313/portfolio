@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react'
 import './home-page.css'
 import useLocalStorage from 'use-local-storage'
 import { MdOutlineCarRepair } from "react-icons/md";
