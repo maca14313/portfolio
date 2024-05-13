@@ -170,7 +170,7 @@ Employ responsive images and media queries to ensure that images and multimedia 
         </div>
     
       </Link>
-      <Link to={'https://6622f73e1f63a44befe9cd62--magical-frangollo-8af496.netlify.app/'} className='display-courses' > 
+      <Link to={'https://admintele.netlify.app/'} className='display-courses' > 
       <TbTargetArrow className='display-courses-pic' />
        
        
