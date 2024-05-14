@@ -815,7 +815,8 @@
     overflow-x: scroll;
     padding-top: 0px;
     display: flex;
-    overflow-x: scroll;
+    justify-content: center;
+    flex-wrap: wrap;
     padding-bottom: 5px;
 
     
@@ -926,7 +927,7 @@
         max-width:100vw;
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:1312px){
     .features-of-platform-item-con{
         min-width:150px;
         max-width:150px;

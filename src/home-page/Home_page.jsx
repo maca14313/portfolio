@@ -73,7 +73,7 @@ function Home_page() {
        
 
             <div className="nav-info-link">Home</div>
-            <div className="nav-info-link">Profile</div>
+            <div className="nav-info-link">What I Do</div>
             <div className="nav-info-link">About</div>
             <div className="nav-info-link">Contact</div>
 
@@ -104,8 +104,8 @@ function Home_page() {
 
        <div className="features-con">
 
-       <div className="features-img-con">
-          <div className="features-img">What I Do</div>
+       <div className="features-img-con" >
+          <div className="features-img" >What I Do</div>
         </div>
         
         <div className="features-list-con">
