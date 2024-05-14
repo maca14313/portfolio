@@ -159,7 +159,7 @@ Employ responsive images and media queries to ensure that images and multimedia 
         <div className='display-courses-con'>
       
       
-      <Link to={'https://go-go1.netlify.app/'} className='display-courses' > 
+      <Link to={'https://go-go-v1.netlify.app/'} className='display-courses' > 
       <MdOutlineCarRepair className='display-courses-pic' />
 
         <div className="display-courses-middle-con">
