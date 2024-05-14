@@ -187,15 +187,15 @@ Employ responsive images and media queries to ensure that images and multimedia 
         </div>
     
       </Link>
-      <Link to={''} className='display-courses' > 
+      <Link to={'https://boriif.netlify.app/'} className='display-courses' > 
       <IoSchool className='display-courses-pic' />
 
        
        
         <div className="display-courses-middle-con">
           <div className="display-courses-middle-name-con">
-            <div className="display-courses-middle-name display-courses-middle-name-title">WE LEARN</div>
-            <div className="display-courses-middle-name"  >Online learning</div>
+            <div className="display-courses-middle-name display-courses-middle-name-title">Boriif</div>
+            <div className="display-courses-middle-name"  >Payment management system</div>
           </div>
         </div>
     
