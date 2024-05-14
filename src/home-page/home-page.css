@@ -100,14 +100,15 @@
 .nav-info-con{
     min-width: max-content;
     max-width: max-content;
-    max-height: 74px;
-    min-height: 74px;
+    max-height: 54px;
+    min-height: 54px;
     display: flex;
     justify-content:start;
     align-items: center;
     background-color:var(--primary-color);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.358);
     margin-top: 20px;
+    background-color: wheat;
     
 
 
@@ -134,8 +135,10 @@
     font-weight: 500;
     padding: 22px 25px;
     margin: 5px;
-    color: var(--text-color);
+    color: var(--back-color);
     color: white;
+    color: black;
+
 
 }
 .nav-info-join{
@@ -200,6 +203,7 @@
         font-size: 16px;
         color:var(--text-color);
         color: white;
+        color: black;
  
     }
     .nav-info-link-join{

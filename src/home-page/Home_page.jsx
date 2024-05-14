@@ -18,6 +18,8 @@ import { CiFacebook } from "react-icons/ci";
 import { TbBrandTelegram } from "react-icons/tb";
 import { FaWhatsapp } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import { VscGithub } from "react-icons/vsc";
+
 
 
 
@@ -49,6 +51,7 @@ function Home_page() {
   const switchTheme = ()=>{
     const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
+    
   }
 
   return (
@@ -72,10 +75,12 @@ function Home_page() {
 
        
 
-            <div className="nav-info-link">Home</div>
-            <div className="nav-info-link">What I Do</div>
-            <div className="nav-info-link">About</div>
-            <div className="nav-info-link">Contact</div>
+            <a href='#' className="nav-info-link">Home</a>
+            <a href='#What-I-Do' className="nav-info-link">What I Do</a>
+            <a href='#About-Me' className="nav-info-link">About</a>
+            <a href="#My-Work" className="nav-info-link">My projects</a>
+            <a href="#Skills" className="nav-info-link">Skills</a>
+            <a href='#Contact-Me' className="nav-info-link">Contact</a>
 
 
 
@@ -92,7 +97,7 @@ function Home_page() {
         <div className="welcome-con">
 
          
-          <div className="welcome-text-name">HEY, I'M FARUK</div>
+          <div className="welcome-text-name">HEY, I'M FARUK.</div>
           <div className="welcome-text-name-job">A Full Stack Web Developer</div>
           
         </div>
@@ -102,7 +107,7 @@ function Home_page() {
       </div>
  {/**************************************************************************** */}
 
-       <div className="features-con">
+       <div className="features-con" id='What-I-Do'>
 
        <div className="features-img-con" >
           <div className="features-img" >What I Do</div>
@@ -141,10 +146,10 @@ Employ responsive images and media queries to ensure that images and multimedia 
 
        {/**************************************************************************** */}
 
-      <div className="hero-con hero-con-about">
+      <div className="hero-con hero-con-about" id='About-Me'>
          <div className="features-list">
             <h3 className='features-list-title features-list-title-about'>ABOUT ME</h3>
-            <p className='features-list-text features-list-text-about'>I'M FARUK ABDELA HUSSEN a full stack web developer. My web development journey has been a fascinating. From the early days of navigating the basics of HTML and CSS to the more recent explorations into advanced JavaScript frameworks, every step has been a building block in my evolving skill set.Over time, I embraced frameworks like React. The process of turning code into visually appealing and functional websites became both a science and an art.As the horizon expanded, so did my understanding of backend technologies. Exploring languages like Node.js opened up new possibilities, allowing me to create robust and scalable web applications.I am eager to dive into the specifics of your project, learn more about your objectives, and ensure that the final result exceeds your expectations.
+            <p className='features-list-text features-list-text-about'>I'M FARUK ABDELA HUSSEN. a full stack web developer. My web development journey has been a fascinating. From the early days of navigating the basics of HTML and CSS to the more recent explorations into advanced JavaScript frameworks, every step has been a building block in my evolving skill set.Over time, I embraced frameworks like React. The process of turning code into visually appealing and functional websites became both a science and an art.As the horizon expanded, so did my understanding of backend technologies. Exploring languages like Node.js opened up new possibilities, allowing me to create robust and scalable web applications.I am eager to dive into the specifics of your project, learn more about your objectives, and ensure that the final result exceeds your expectations.
 
 </p>
           </div>
@@ -154,7 +159,7 @@ Employ responsive images and media queries to ensure that images and multimedia 
 
 
         {/***************************************************************************************************** */}
-        <div className="features-of-platform-con-topic">SOME OF MY WORK</div>
+        <div className="features-of-platform-con-topic" id='My-Work'>SOME OF MY WORK</div>
 
         <div className='display-courses-con'>
       
@@ -202,7 +207,7 @@ Employ responsive images and media queries to ensure that images and multimedia 
        
          </div>
   {/**************************************************************************** */}
-  <div className="features-of-platform-con-topic">SOME OF MY SKILLS</div>
+  <div className="features-of-platform-con-topic" id='Skills'>SOME OF MY SKILLS</div>
 
 
        <div className="features-of-platform-con">
@@ -303,7 +308,7 @@ Employ responsive images and media queries to ensure that images and multimedia 
         </div>
        
 
-         <div className="features-of-platform-con-topic">GET IN TOUCH</div>
+         <div className="features-of-platform-con-topic" id='Contact-Me'>GET IN TOUCH</div>
 
        <div className='contact-info-con'>
         <div className='contact-info-list'> <CiLocationOn className='contact-info-list-icon'/> <div>ADDIS ABABA, ETHIOPIA</div> </div>
@@ -312,10 +317,8 @@ Employ responsive images and media queries to ensure that images and multimedia 
        </div>
 
        <div className='contact-info-con'>
-       <div className='contact-info-list'> <CiLinkedin className='contact-info-list-icon'/> </div>
-        <div className='contact-info-list'> <CiFacebook className='contact-info-list-icon'/> </div>
-        <div className='contact-info-list'><TbBrandTelegram className='contact-info-list-icon' /> </div>
-        <div className='contact-info-list'> <FaWhatsapp className='contact-info-list-icon'/> </div>
+       <Link to={'https://www.linkedin.com/in/faruk-hussen-5844032a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} className='contact-info-list'> <CiLinkedin className='contact-info-list-icon'/> </Link>
+        <Link to={'https://github.com/maca14313'} className='contact-info-list'> <VscGithub className='contact-info-list-icon'/> </Link>
 
        </div>
 
